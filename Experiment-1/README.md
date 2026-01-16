@@ -10,4 +10,6 @@ After successful completion of the project, I learned about:
 
 4.Evaluate code quality using ESLint and follow best practices for scalable frontend development.
 
-5.Create a production-ready React application using industry-standard tools and configurations.
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
