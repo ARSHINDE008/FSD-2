@@ -1,31 +1,16 @@
-# Experiment-3
+23BIS70049
+23BIS-1(B)
 
-A simple React application built with Vite.
+Learning Outcomes
 
-## Project Structure
+After completing this experiment, I learned to:
 
-- `src/`: Contains the React components and source code.
-- `public/`: Static assets.
+Create and run a React application using Vite and manage it using npm.
 
-## Getting Started
+Understand the project structure and organize components effectively.
 
-1.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+Design a modern card-based UI with interactive Button and TextField components.
 
-2.  **Run the application:**
-    ```bash
-    npm run dev
-    ```
+Implement client-side routing using BrowserRouter, Routes, and Route.
 
-3.  **Build for production:**
-    ```bash
-    npm run build
-    ```
-
-## Features
-
-- Modern UI with card-based layout.
-- Clean and premium aesthetics.
-- Interactive Home component with Button and TextField.
+Navigate between pages smoothly using Link without reloading the browser.
