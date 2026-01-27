@@ -1,31 +1,7 @@
-# Experiment-2
+23bis70049 ARSHINDER SINGH
 
-A simple React application built with Vite.
-
-## Project Structure
-
-- `src/`: Contains the React components and source code.
-- `public/`: Static assets.
-
-## Getting Started
-
-1.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-2.  **Run the application:**
-    ```bash
-    npm run dev
-    ```
-
-3.  **Build for production:**
-    ```bash
-    npm run build
-    ```
-
-## Features
-
-- Modern UI with card-based layout.
-- Clean and premium aesthetics.
-- Interactive Home component with Button and TextField.
+# Learning outcomes
+- Understand Single Page Application (SPA) concepts 
+- Apply React fundamentals such as functional components, JSX, props, and state management to build modular web pages.
+- Use Material UI (MUI) components to design a clean and responsive user interface.
+- Implement client-side routing using React Router to enable URL-based navigation between pages
