@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --background-dark: #242424;
+  --text-primary: #ffffff;
+
+  /* Pastel Card Colors (Standard Material Design 50/100 shades) */
+  --card-blue-bg: #e3f2fd;
+  --card-blue-border: #90caf9;
+  --card-blue-text: #0d47a1;
+
+  --card-green-bg: #e8f5e9;
+  --card-green-border: #a5d6a7;
+  --card-green-text: #1b5e20;
+
+  --card-orange-bg: #fff3e0;
+  --card-orange-border: #ffcc80;
+  --card-orange-text: #e65100;
+
+  /* Button Colors */
+  --btn-blue: #1565c0;
+  --btn-green: #2e7d32;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+/* Card Common Styles */
+.counter-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  /* Slightly less rounded than before */
+  text-align: center;
+  margin: 10px auto;
+  width: 500px;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+.counter-card h3 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* Blue Card */
+.card-blue {
+  background-color: var(--card-blue-bg);
+  /* Border is usually not prominent in the screenshot, removing or making subtle */
+  border: none;
+  color: var(--card-blue-text);
+}
+
+.card-blue h3 {
+  color: var(--card-blue-text);
+  opacity: 0.9;
+}
+
+
+/* Green Card */
+.card-green {
+  background-color: var(--card-green-bg);
+  border: none;
+  color: var(--card-green-text);
+}
+
+.card-green h3 {
+  color: var(--card-green-text);
+  opacity: 0.9;
+}
+
+
+/* Orange Card */
+.card-orange {
+  background-color: var(--card-orange-bg);
+  border: none;
+  color: var(--card-orange-text);
+}
+
+.card-orange h3 {
+  color: var(--card-orange-text);
+  opacity: 0.9;
+}
+
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Blue Card Buttons: Solid Increase, Outline Decrease */
+.btn-blue-solid {
+  background-color: var(--btn-blue);
+  color: white;
+  border: 1px solid var(--btn-blue);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-blue-outline {
+  background-color: transparent;
+  color: var(--btn-blue);
+  border: 1px solid var(--btn-blue);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Green Card Buttons: Both Outline */
+.btn-green-outline {
+  background-color: transparent;
+  color: var(--btn-green);
+  border: 1px solid var(--btn-green);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Orange Card Buttons: White Solid */
+.btn-white {
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: 900;
+  text-transform: capitalize;
+  /* "Increase" title case */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
