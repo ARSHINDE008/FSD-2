@@ -1,0 +1,133 @@
+{
+    "info": {
+        "_postman_id": "e8-student-api-collection",
+        "name": "Experiment-8-Student-API",
+        "description": "Full CRUD API for student management",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Check Server Status",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        ""
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get All Students",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/students",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "students"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Create Student",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Arshinder\",\n    \"age\": 20\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{base_url}}/students",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "students"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Student by ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/students/1",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "students",
+                        "1"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Update Student",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Arshinder Updated\",\n    \"age\": 21\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{base_url}}/students/1",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "students",
+                        "1"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Delete Student",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/students/1",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "students",
+                        "1"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
