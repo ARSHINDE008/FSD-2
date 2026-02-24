@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: experiment-8-backend
+    env: python
+    buildCommand: pip install -r backend/Experiment-8/requirements.txt
+    startCommand: gunicorn --chdir backend/Experiment-8 app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
