@@ -19,7 +19,7 @@ def get_account_details(user_id):
     # Call Order Service
     try:
         response = requests.get(
-            f"https://two3bis70035-experiment-11-order.onrender.com/orders/user/{user_id}",
+            f"https://two3bis70049-experiment-11.onrender.com/orders/user/{user_id}",
             timeout=3
         )
 
