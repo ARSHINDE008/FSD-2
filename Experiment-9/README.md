@@ -8,10 +8,8 @@ ARSHINDER SINGH
 
 ### 1. Server Start & Running
 
-![Uploading 4.png…]()
-<img width="1402" height="1122" alt="3" src="https://github.com/user-attachments/assets/1a66f600-6a0d-474c-ac39-68e2380e954a" />
-<img width="1465" height="1074" alt="2" src="https://github.com/user-attachments/assets/37bd8e11-a8ac-45c5-8415-59f0de64697b" />
-<img width="1919" height="475" alt="1" src="https://github.com/user-attachments/assets/8ab14d91-6494-407a-936c-b457de6cfcbf" />
+
+<img width="1919" height="475" alt="1" src="https://github.com/user-attachments/assets/1f7cdc88-0265-4bfa-b832-278e72593155" />
 
 Render development server successfully started.
 
